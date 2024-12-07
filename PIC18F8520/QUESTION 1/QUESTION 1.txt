@@ -1,0 +1,10 @@
+### **Configuring a GPIO Pin as Output (Blinking LED)**
+
+**Goal**: Make an LED blink with a 1-second delay.
+
+1. **Understand GPIO Modes**: Learn that GPIO pins can act as either inputs or outputs. To control an LED, the pin must be set as an output.
+2. **Identify the LED Pin**: Check the circuit schematic to know which GPIO pin is connected to the LED.
+3. **Configure the GPIO Pin**: Set the identified GPIO pin as output in the microcontroller’s configuration (e.g., by setting the direction register).
+4. **Provide Power and Ground**: Connect one terminal of the LED to the GPIO pin and the other terminal to ground via a resistor to limit the current.
+5. **Implement Blinking Logic**: Turn the GPIO pin high (turns the LED ON) and wait for 1 second. Then turn it low (turns the LED OFF) and wait for 1 second.
+6. **Loop Forever**: Repeat the ON-OFF cycle indefinitely to achieve blinking.
