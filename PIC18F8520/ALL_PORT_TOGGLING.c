@@ -1,4 +1,5 @@
-/* 
+/*
+    GPIO TOGGLING TEST CODE
     Microcontroller: PIC18F8520
 */
 
